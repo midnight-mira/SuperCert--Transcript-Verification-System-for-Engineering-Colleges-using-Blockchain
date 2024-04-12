@@ -6,7 +6,7 @@ import abi from '../../contractJson/IPFSHashStorage.json'
 import { useNavigate } from 'react-router-dom'
 //0x90e5DEEe186D79c254c19de2964a5C5B1f9EaFef
 //0xcafDfC95e5E55c3a75376EA734799201f9Bb93B2
-const Address = '0xcafDfC95e5E55c3a75376EA734799201f9Bb93B2'
+const Address = 'your testnet address where IPFSHashStorage contract is deployed'
 const AddDocument = () => {
     const navigate = useNavigate()
     const [stateAcc, setStateAcc] = useState({
