@@ -12,8 +12,10 @@ This project uses following tools and technologies
 - **Hardhat and EtherJs (for interacting with blockchain)**
 - **MongoDB (for logging trasactions)**
 
-### There are 3 main folders viz:
-### 1. Client (for frontend), 2. Server (for mongoDB and RestAPIs), 3. Parent file (which contains contracts and abis)
+There are 3 main folders viz:
+1. Client (for frontend)
+2. Server (for mongoDB and RestAPIs)
+3. Parent file (which contains contracts and abis)
 
 Follow along with _README_ in each folder to correctly configure and execute the project
 
