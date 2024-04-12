@@ -20,16 +20,51 @@ There are 3 main folders viz:
 
 Follow along with _README_ in each folder to correctly configure and execute the contract files.
 
-__STEP 1.__
-1. install the npm file (parent directory)
+__STEP 1. Install the npm file (parent directory)__
+
    ```js
    npm install
    ```
-2. compile and deploy smart contract
-   ```js
-   
-   ```
+__STEP 2. Create metamask account and create web3 sepolia account on alchemy.__
+
+after setting up metamask account, download the extension. Create an alchemy account, crete a project and copy its https api key. paste it in _hardhat.config.js_ file
+
+```js
+
+url: `https://eth-sepolia.g.alchemy.com/v2/your-api-key`,
+accounts: [SEPOLIA_PRIVATE_KEY] //private key is one time key that you can see only once when the project is created, be sure to store it somewhere safe.
+
+```
+
+__STEP 3. compile and deploy smart contract.__
+
+Compile contract using
+
+```shell
+
+$ npx hardhat compile
+
+```
+This creates a artifacts and abi-file.
+
+For deploying the contract exceute _scripts/deploy.js_
+
+```bash
+
+$ npx hardhat deploy scripts/deploy.js --network sepolia
+
+```
+The above command logs the sepolia testnet address for both the smart contracts.Replace this address in _client/components/user/Verify.jsx_ and _client/components/admin/AddDocument.jsx_
+
+```js
+
+const paymeAddr = 'Your testnet address for payme contract'
+const Address = 'Your testnet address for IPFSHashStorage contract'
+
+```
+for checking and verifying transactions on the testnet go to:
+
+https://sepolia.etherscan.io/address/your-testnet-address
 
 
-Below given are the steps to correctly setup for solidity
 
