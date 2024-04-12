@@ -1,0 +1,5 @@
+.table-responsive {
+    overflow-x: auto; /* Horizontal scrolling */
+    overflow-y: auto; /* Vertical scrolling */
+    max-height: 300px; /* Maximum height of the table container */
+  }

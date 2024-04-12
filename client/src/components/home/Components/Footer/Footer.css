@@ -1,0 +1,22 @@
+.footer{
+    margin-top: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #9c7d5c;
+    padding: 15px 0;
+    color:  #f5f5dc;
+}
+.footer ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+p{
+    margin-left: 20px;
+}
+li{
+    font-size: 15px;
+}

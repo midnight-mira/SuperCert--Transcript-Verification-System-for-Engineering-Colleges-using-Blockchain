@@ -1,0 +1,45 @@
+.home{
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background:#F9e4bc ;
+    background-size: cover;
+    background-position: center;
+    color: #A3816A;
+    padding-top: 90px;
+    display: flex;
+    margin:0;
+    
+}
+.home-text{
+    flex-basis: 90%;
+    margin-top: 10%;
+    margin-right: 15px;
+    max-width: 50%;
+    padding: 20px;
+    
+}
+.home-text h1{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home-text p{
+    margin: 20px auto 20px;
+    line-height: 1.4;
+
+}
+.home-image{
+    flex-basis: 100%;
+   background-color:#FFF2D8;
+   width: 100%;
+   align-items: center;
+   padding: 30px;
+   overflow: hidden;
+}
+
+.home-image img{ 
+    padding-top: 30%;
+    padding-left: 15%;
+    
+
+}

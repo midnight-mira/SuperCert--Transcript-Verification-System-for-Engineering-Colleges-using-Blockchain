@@ -1,0 +1,64 @@
+.people{
+    margin: 80px auto;
+    padding:0 80px;
+    position: relative;
+ }
+.next-btn, .back-btn{
+    position: absolute;
+    top:50%;
+    right: 50px;
+    transform: translateY(-50%);
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #e0b990;
+}
+.back-btn{
+    right: auto;
+    left: 0;
+}
+.slider{
+    overflow: hidden;
+   
+}
+.slider ul{
+   display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+   
+}
+.user-info{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.user-info h3{
+    color:  #332f2f;
+}
+.user-info img{
+    width: 100px;
+    border: 3px solid rgb(52, 46, 46);
+    border-radius: 70%;
+}
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+   }
+.slide{
+    box-shadow:0 0 20px rgba(0,0,0,0,0.05);
+    padding: 40px;
+    border-radius: 20px;
+    color: rgb(80, 61, 61);
+    line-height: 1.4;
+    background: #d5d5d5;
+
+}
+.Footer img{
+    height: 40px;
+    margin: 5px ;
+     align-items: center;
+    margin-bottom: 10px;
+   }
