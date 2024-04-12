@@ -11,11 +11,24 @@ This project uses following tools and technologies
 - **Pinata (IPFS)**
 - **Hardhat and EtherJs (for interacting with blockchain)**
 - **MongoDB (for logging trasactions)**
+- **Solidity and Chainlinkfor smart contract**
 
 There are 3 main folders viz:
 1. Client (for frontend)
 2. Server (for mongoDB and RestAPIs)
 3. Parent file (which contains contracts and abis)
 
-Follow along with _README_ in each folder to correctly configure and execute the project
+Follow along with _README_ in each folder to correctly configure and execute the contract files
+__STEP 1.__
+1. install the npm file (parent directory)
+   ```js
+   npm install
+   ```
+2. compile and deploy smart contract
+   ```js
+   
+   ```
+
+
+Below given are the steps to correctly setup for solidity
 
