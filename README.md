@@ -5,7 +5,7 @@ Students can share the recieved form of transcript (CID or QR code) with the uni
 Removes intermediary (here it is university where the student is affiliated with) and makes the process quick, simple and efficient for both student and verification authority.
 
 This project uses following tools and technologies
-__* Ethereum__
+__*Ethereum__
 
 
 Try running some of the following tasks:
