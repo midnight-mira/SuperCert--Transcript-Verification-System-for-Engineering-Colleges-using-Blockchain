@@ -5,16 +5,15 @@ Students can share the recieved form of transcript (CID or QR code) with the uni
 Removes intermediary (here it is university where the student is affiliated with) and makes the process quick, simple and efficient for both student and verification authority.
 
 This project uses following tools and technologies
-***Ethereum**
-* 
+- **Ethereum (Sepolia)**
+- **React (frontend)**
+- **ExpressJs (Backend)**
+- **Pinata (IPFS)**
+- **Hardhat and EtherJs (for interacting with blockchain)**
+- **MongoDB (for logging trasactions)**
 
+### There are 3 main folders viz:
+### 1. Client (for frontend), 2. Server (for mongoDB and RestAPIs), 3. Parent file (which contains contracts and abis)
 
-Try running some of the following tasks:
+Follow along with _README_ in each folder to correctly configure and execute the project
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
