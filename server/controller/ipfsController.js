@@ -4,14 +4,11 @@ const FormData = require("form-data");
 const fs = require("fs");
 const JWT = process.env.PINATA_JWT;
 const files = require('../model/ipfsModel')
-const emailjs = require('emailjs-com');
 const asyncHandler = require('express-async-handler')
 const docArray = [] //for generating id
 console.log(JWT)
 console.log(process.env.NODE_ENV)
 const nodemailer = require('nodemailer')
-
-emailjs.init("atcDs1Fwc81Um4uWY");
 
 
 const createFile = (Name, FileData) => {
@@ -89,8 +86,8 @@ const sendemail = asyncHandler(async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'amirashaikh2406@gmail.com',
-      pass: 'vnnc yygv wvos ogan'
+      user: 'your email',
+      pass: 'your password'
     }
   });
   const userEmail = req.body.email;
