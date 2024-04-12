@@ -18,7 +18,8 @@ There are 3 main folders viz:
 2. Server (for mongoDB and RestAPIs)
 3. Parent file (which contains contracts and abis)
 
-Follow along with _README_ in each folder to correctly configure and execute the contract files
+Follow along with _README_ in each folder to correctly configure and execute the contract files.
+
 __STEP 1.__
 1. install the npm file (parent directory)
    ```js
