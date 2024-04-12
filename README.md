@@ -27,7 +27,7 @@ __STEP 1. Install the npm file (parent directory)__
    ```
 __STEP 2. Create metamask account and create web3 sepolia account on alchemy.__
 
-after setting up metamask account, download the extension. Create an alchemy account, crete a project and copy its https api key. paste it in _hardhat.config.js_ file
+after setting up metamask account, download the metamask extension. Create an alchemy account, create a project and copy its https api key. paste it in _hardhat.config.js_ file
 
 ```js
 
@@ -35,6 +35,9 @@ url: `https://eth-sepolia.g.alchemy.com/v2/your-api-key`,
 accounts: [SEPOLIA_PRIVATE_KEY] //private key is one time key that you can see only once when the project is created, be sure to store it somewhere safe.
 
 ```
+
+for get faucet ether use the following website:
+https://learnweb3.io/faucets/sepolia/
 
 __STEP 3. compile and deploy smart contract.__
 
