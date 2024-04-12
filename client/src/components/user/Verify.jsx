@@ -6,8 +6,8 @@ import abi from '../../contractJson/IPFSHashStorage.json'
 import abi2 from '../../contractJson/payme.json'
 
 //0x90e5DEEe186D79c254c19de2964a5C5B1f9EaFef
-const paymeAddr = '0xB6A199c4Ed5d7Ec5461c229C5A7c80FD40f48743'
-const Address = '0xcafDfC95e5E55c3a75376EA734799201f9Bb93B2'
+const paymeAddr = /* 'Address of testnet where the payme contract is deployed' */
+const Address = /* Address of testnet where the Lock.sol or IPFSHashStorage contract is deployed' */
 
 const Verify = () => {
     const [account, setAccount] = useState('Not connected')
