@@ -66,5 +66,11 @@ for checking and verifying transactions on the testnet go to:
 
 https://sepolia.etherscan.io/address/your-testnet-address
 
+**TO DO**
+1. Fix automatic conversion chainlink contract
+2. Add Struct and map both the hash and sender for preventing duplicate charges
+
+
+
 
 
