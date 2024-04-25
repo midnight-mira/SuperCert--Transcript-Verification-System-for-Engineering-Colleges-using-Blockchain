@@ -32,11 +32,11 @@ Activity Diagram
 ___________________
 
 ## Features
-**1. Admin login using Jwt.**
-**2. records ethereum transaction information in server.**
-**3. allows admin to upload document below 10MB.**
-**4. sends document CID to the student on their emailId.**
-**5. verifier can verify the document by using CID (hash).**
+1. **Admin login using Jwt**
+2. **Records ethereum transaction information in server**
+3. **Allows admin to upload document below 10MB**
+4. **Sends document CID to the student on their emailId**
+5. **Verifier can verify the document by using CID (hash)**
 
 ________________________
 
