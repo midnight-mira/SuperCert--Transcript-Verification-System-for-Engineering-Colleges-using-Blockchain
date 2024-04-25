@@ -13,6 +13,11 @@ This project uses following tools and technologies
 - **MongoDB (for logging trasactions)**
 - **Solidity and Chainlinkfor smart contract**
 
+## Architecture 
+
+
+_______________________________________________________________________________________________________________________
+
 There are 3 main folders viz:
 1. Client (for frontend)
 2. Server (for mongoDB and RestAPIs)
