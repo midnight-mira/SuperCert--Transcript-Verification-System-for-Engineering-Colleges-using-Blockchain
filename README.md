@@ -15,8 +15,17 @@ This project uses following tools and technologies
 
 ## Architecture 
 
+Application Structure 
 <img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/architecture.png" align="center">
 
+Block diagram
+<img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/block.png" align="center">
+
+Sequence Diagram
+<img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/sequence.png" align="center">
+
+Activity Diagram
+<img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/activity.png" align="center">
 ___________________
 There are 3 main folders viz:
 1. Client (for frontend)
