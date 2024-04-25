@@ -30,6 +30,15 @@ _______
 Activity Diagram
 <img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/activity.png" align="center">
 ___________________
+
+## Features
+__1. Admin login using Jwt.__
+__2. records ethereum transaction information in server.__
+__3. allows admin to upload document below 10MB.__
+__4. sends document CID to the student on their emailId.__
+__5. verifier can verify the document by using CID (hash).__
+________________________
+
 There are 3 main folders viz:
 1. Client (for frontend)
 2. Server (for mongoDB and RestAPIs)
