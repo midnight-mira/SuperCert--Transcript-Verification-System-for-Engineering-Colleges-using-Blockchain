@@ -15,9 +15,9 @@ This project uses following tools and technologies
 
 ## Architecture 
 
+<img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/architecture.png" align="center">
 
-_______________________________________________________________________________________________________________________
-
+___________________
 There are 3 main folders viz:
 1. Client (for frontend)
 2. Server (for mongoDB and RestAPIs)
