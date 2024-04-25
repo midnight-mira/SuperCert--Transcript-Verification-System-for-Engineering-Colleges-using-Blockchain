@@ -17,12 +17,15 @@ This project uses following tools and technologies
 
 Application Structure 
 <img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/architecture.png" align="center">
+___________
 
 Block diagram
 <img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/block.png" align="center">
+__________
 
 Sequence Diagram
 <img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/sequence.png" align="center">
+_______
 
 Activity Diagram
 <img src="https://github.com/midnight-mira/SuperCert--Transcript-Verification-System-for-Engineering-Colleges-using-Blockchain/blob/main/img/activity.png" align="center">
