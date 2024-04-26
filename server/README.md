@@ -46,6 +46,15 @@ $node
 
 run the require statement twice and paste the output in env variables.
 
+__Step 6. Run Server__
+
+```js
+npm start
+```
+
+## TO DO
+1. Add QR code functionality
+
  
  
  
