@@ -4,6 +4,10 @@ SuperCert is a web application that can used to store academic transcripts issue
 Students can share the recieved form of transcript (CID or QR code) with the university (higher education institutes) and they can use the same website to efficiently verify the same. 
 Removes intermediary (here it is university where the student is affiliated with) and makes the process quick, simple and efficient for both student and verification authority.
 
+__Paper Link__
+[Research Paper](https://doi.org/10.32628/CSEIT2410266)
+
+
 This project uses following tools and technologies
 - **Ethereum (Sepolia)**
 - **React (frontend)**
