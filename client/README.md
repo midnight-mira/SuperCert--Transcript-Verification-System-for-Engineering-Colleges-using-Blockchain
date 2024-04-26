@@ -23,6 +23,12 @@ REACT_APP_PAYME_TESTNET_ADDRESS = "your testnet address for PayMe contract"
 
 use these in address variables in /src/components/user/Verify.jsx, /src/components/admin/AddDocument.jsx
 
+**STEP 3. Run the project**
+
+```js
+npm run dev
+```
+
 ## TO DO
 1. imporve ui.
 2. add error handling component.
