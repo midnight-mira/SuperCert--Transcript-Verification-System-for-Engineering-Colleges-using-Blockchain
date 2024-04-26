@@ -35,6 +35,17 @@ ACCESS_TOKEN_SECRET = paste your access token
 REFRESH_TOKEN_SECRET = paste your refresh token
 ```
 
+__Step 5. use *bcrypt* for generating token secret__
+
+run the following in the terminal
+
+```js
+$node
+require('crypto').randomBytes(64).toString('hex')
+```
+
+run the require statement twice and paste the output in env variables.
+
  
  
  
