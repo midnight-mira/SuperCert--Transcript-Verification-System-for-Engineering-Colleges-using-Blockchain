@@ -99,9 +99,9 @@ https://sepolia.etherscan.io/address/your-testnet-address
 
 **TO DO**
 1. Fix automatic conversion chainlink contract.
-2. Add Struct and map both the hash and sender for preventing duplicate charges.
-3. Add mappings to link the CID's with the account of the verifier to efficiently utilize single transaction.
-4. Add code to download the document on verifier's device.
+2. Add mappings to link the CID's with the account of the verifier to efficiently utilize single transaction.
+3. Add code to download the document on verifier's device.
+4. Create a local IPFS node.
 
 
 
