@@ -39,9 +39,9 @@ __Step 5. use *bcrypt* for generating token secret__
 
 run the following in the terminal
 
-```js
+```bash
 $node
-require('crypto').randomBytes(64).toString('hex')
+>require('crypto').randomBytes(64).toString('hex')
 ```
 
 run the require statement twice and paste the output in env variables.
