@@ -86,7 +86,7 @@ For deploying the contract exceute _scripts/deploy.js_
 
 ```bash
 
-$ npx hardhat deploy scripts/deploy.js --network sepolia
+$ npx hardhat run scripts/deploy.js --network sepolia 
 
 ```
 The above command logs the sepolia testnet address for both the smart contracts.Replace this address in _client/components/user/Verify.jsx_ and _client/components/admin/AddDocument.jsx_
