@@ -51,6 +51,10 @@ __Step 6. Run Server__
 ```js
 npm start
 ```
+__Step 7. Create a folder for storing files__
+
+create a folder named "Uploads" in server directory to store files in server (As we are using multer)
+
 
 ## TO DO
 1. Add QR code functionality
