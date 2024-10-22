@@ -36,69 +36,16 @@ slider.current.style.transform =`translateX(${tx}%)`
                 <div className='user-info'>
                   <img src={User1} />
                   <div>
-                    <h3>Akanksha Gairola</h3>
+                    <h3>Name</h3>
                     <p>Group Leader</p>
                     <p>Roll No.: 41</p>
-                    <p>Gmail: akanksha.a.gairola@slrtce.in</p>
+                    <p>Gmail:</p>
                   </div>
                 </div>
                 <div className='Footer'>
-                 <a href="https://www.linkedin.com/in/akanksha-g01/"><img src={Linkedln} /></a><span />
-                 <a href="https://github.com/AkankshaGa/"><img src={Github} /></a>
+                 <a href="/"><img src={Linkedln} /></a><span />
+                 <a href="/"><img src={Github} /></a>
                </div> </div>
-            </li>
-            {/* Member 2 */}
-            <li>
-              <div className="slide">
-                <div className='user-info'>
-                  <img src={User1} />
-                  <div>
-                    <h3>Akanksha Gairola</h3>
-                    <p>Group Leader</p>
-                    <p>Roll No.: 41</p>
-                    <p>Gmail: akanksha.a.gairola@slrtce.in</p>
-                  </div>
-                </div>
-                <div className='Footer'>
-                 <a href="https://www.linkedin.com/in/akanksha-g01/"><img src={Linkedln} /></a><span />
-                 <a href="https://github.com/AkankshaGa/"><img src={Github} /></a>
-               </div> </div>
-            </li>
-            {/* Member 3 */}
-            <li>
-              <div className="slide">
-                <div className='user-info'>
-                  <img src={User1} />
-                  <div>
-                    <h3>Akanksha Gairola</h3>
-                    <p>Group Leader</p>
-                    <p>Roll No.: 41</p>
-                    <p>Gmail: akanksha.a.gairola@slrtce.in</p>
-                  </div>
-                </div>
-                <div className='Footer'>
-                 <a href="https://www.linkedin.com/in/akanksha-g01/"><img src={Linkedln} /></a><span />
-                 <a href="https://github.com/AkankshaGa/"><img src={Github} /></a>
-               </div> </div>
-            </li>
-            {/* Member 4 */}
-            <li>
-              <div className="slide">
-                <div className='user-info'>
-                  <img src={User1} />
-                  <div>
-                    <h3>Akanksha Gairola</h3>
-                    <p>Group Leader</p>
-                    <p>Roll No.: 41</p>
-                    <p>Gmail: akanksha.a.gairola@slrtce.in</p>
-                  </div>
-                </div>
-                <div className='Footer'>
-                 <a href="https://www.linkedin.com/in/akanksha-g01/"><img src={Linkedln} /></a><span />
-                 <a href="https://github.com/AkankshaGa/"><img src={Github} /></a>
-               </div> </div>
-            
-            
             </li>
           </ul> 
         </div>
