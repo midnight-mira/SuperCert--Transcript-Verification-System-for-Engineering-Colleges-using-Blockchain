@@ -12,7 +12,7 @@ export default function ContactUs() {
       setResult("Sending....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "76f3ec5b-ec46-4e1c-aeba-a18dd4a48cd5");
+      formData.append("access_key", "");
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -37,9 +37,9 @@ export default function ContactUs() {
         <h3>Send us a message <img src ={Msg} /></h3>
         <p>Please feel free to contact us for any inquiries</p>
         <ul>
-            <li><img src={Mail} />Contact: akanksha.a.gairola@slrtce.in</li>
-            <li><img src={Phone} />9637303766</li>
-            <li><img src={Location} />Shree LR Tiwari College of Engineering</li>
+            <li><img src={Mail} /></li>
+            <li><img src={Phone} /></li>
+            <li><img src={Location} /></li>
         </ul>
         </div>
       <div className="contact-col">
